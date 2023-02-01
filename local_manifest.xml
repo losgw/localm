@@ -4,25 +4,27 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
+ <remote name="losgw" 
+         fetch="https://github.com/losgw" />
 
  <!-- Trees -->
 
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
           name="X00TD.git" 
-          remote="aslenofarid" 
+          remote="losgw" 
           revision="lineage-17.1" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
           name="common.git" 
-          remote="aslenofarid" 
+          remote="losgw" 
           revision="lineage-17.1" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
           name="vendor.git" 
-          remote="aslenofarid" 
+          remote="losgw" 
           revision="lineage-17.1" />
 
  <!-- Kernel Tree -->
