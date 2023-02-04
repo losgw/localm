@@ -12,19 +12,19 @@
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
           name="X00TD.git" 
-          remote="losgw" 
+          remote="aslenofarid" 
           revision="lineage-17.1" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
           name="common.git" 
-          remote="losgw" 
+          remote="aslenofarid" 
           revision="lineage-17.1" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
           name="vendor.git" 
-          remote="losgw" 
+          remote="aslenofarid" 
           revision="lineage-17.1" />
 
  <!-- Kernel Tree -->
