@@ -5,35 +5,32 @@
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
  <remote name="losgw" 
-         fetch="https://github.com/losgw" />
+         fetch="https://github.com/asus-sdm660-devs" />
 
  <!-- Trees -->
 
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
-          name="X00TD.git" 
+          name="android_device_asus_X00TD.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" /> 
+          revision="lineage-19.1" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
-          name="common.git" 
+          name="android_device_asus_sdm660-common.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="lineage-20" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
-          name="vendor.git" 
+          name="proprietary_vendor_asus.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="lineage-19.1" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
-
- <remove-project name="LineageOS/android_hardware_qcom_audio" />
- <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="aslenofarid" revision="lineage-17.1-caf-msm8998" />
+          revision="lineage-19.1" />
 
 </manifest>
