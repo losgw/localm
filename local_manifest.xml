@@ -4,33 +4,33 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="asd" 
-         fetch="https://github.com/asus-sdm660-devs" />
+ <remote name="losgw" 
+         fetch="https://github.com/losgw" />
 
  <!-- Trees -->
 
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
-          name="android_device_asus_X00TD.git" 
-          remote="asd" 
-          revision="lineage-19.1" /> 
+          name="device_asus_X00TD.git" 
+          remote="losgw" 
+          revision="arrow-10.0" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
-          name="android_device_asus_sdm660-common.git" 
-          remote="asd" 
-          revision="lineage-20" />
+          name="common.git" 
+          remote="aslenofarid" 
+          revision="lineag-17.1" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
-          name="proprietary_vendor_asus.git" 
-          remote="asd" 
-          revision="lineage-19.1" />
+          name="vendor.git" 
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
-          revision="lineage-19.1" />
+          revision="lineage-17.1" />
 
 </manifest>
