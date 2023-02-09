@@ -19,7 +19,7 @@
  <project path="device/asus/sdm660-common" 
           name="common.git" 
           remote="aslenofarid" 
-          revision="lineag-17.1" />
+          revision="arrow-10.0" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
