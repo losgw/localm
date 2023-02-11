@@ -34,6 +34,6 @@
           revision="lineage-17.1" />
 
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
- <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="aslenofarid" revision="lineage-17.1-caf-msm8998" />
+ <project path="hardware/qcom/audio-caf/msm8998" name="hardware/qcom-caf/msm8998/audio" remote="aslenofarid" revision="lineage-17.1-caf-msm8998" />
 
 </manifest>
