@@ -4,6 +4,8 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
+ <remote name="kdrag0n"
+         fetch="https://github.com/kdrag0n" />
  <remote name="losgw" 
          fetch="https://github.com/losgw" />
 
@@ -32,6 +34,9 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
 
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="aslenofarid" revision="lineage-17.1-caf-msm8998" />
