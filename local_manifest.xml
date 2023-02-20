@@ -33,7 +33,7 @@
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
-          revision="ten" />
+          revision="lineage-17.1" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
